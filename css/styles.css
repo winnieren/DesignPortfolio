@@ -1,0 +1,291 @@
+:root {
+  font-size: 14px;
+  }
+
+  h1 {
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: #DE907B;
+  }
+
+  h2{
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+  }
+
+body {
+  font-family: 'Open Sans';
+  color: #565656;
+  background-color: #FBFBFB;
+  margin:0;
+  padding:0;
+  overflow-x: hidden;
+}
+
+.white{
+  color:white !important;
+}
+
+.grey{
+  color:#565656;
+}
+
+.indent{
+  width:100%;
+}
+
+.chinese {
+  font-family: 'Ma Shan Zheng', cursive !important;
+  font-size:2rem !important;
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+
+/* background colors */
+.whiteBack{
+  background-color: white;
+}
+
+.lPinkBack{
+  padding: 5% 0 5%;
+  background-color: #E6C5B4;
+}
+
+.dPinkback{
+  padding: 5% 0 5%;
+  background-color: #DE907B;
+}
+
+.blueBack{
+  padding: 5% 0 5%;
+  background-color: #4A87A1;
+}
+
+
+/* landing page */
+.centerLandingPage{
+  padding: 10% 0 10%;
+  width:50%;
+  margin:auto;
+}
+
+.inline {
+  display: inline;
+}
+
+.bolded {
+  color:#4A87A1;
+  font-weight: bold;
+
+}
+
+.centerName{
+  color: #DE907B;
+  font-family: 'Rufina', serif;
+  font-size: 2rem;
+  padding: 2px;
+  white-space: nowrap;
+}
+
+.noun{
+  font-family: 'Rufina', serif;
+  font-style: italic;
+  color: #E6C5B4;
+  font-size: 1.2rem;
+}
+
+/* Navigation */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 10px;
+}
+
+#navbar {
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+#navbar a:hover{
+  color:  #DE907B;
+}
+
+#navbar li {
+  display: inline;
+}
+
+#navbar a {
+  color: #4A87A1;
+  margin: 2px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-family: 'Rufina', serif;
+}
+
+#navbar ul{
+  list-style-type: none;
+  width: 100%;
+}
+
+/*Project Sections*/
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.sectionImage{
+  width:100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionText{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.subtitle{
+  color: #E6C5B4;
+  margin: 0 0 -15px 100px;
+}
+
+/*footer*/
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+  @media screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    .chinese {
+      font-family: 'Ma Shan Zheng', cursive !important;
+      font-size:40px !important;
+    }
+
+/* Page content */
+  .content {
+    padding: 16px;
+  }
+
+/* Navigation */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+#navbar {
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+#navbar a:hover{
+    color:  #DE907B;
+}
+#navbar li a {
+    display: block;
+    color: #4A87A1;
+    margin: 10px;
+    font-size: 1.71rem;
+    text-decoration: none;
+    font-family: 'Rufina', serif;
+}
+
+#navbar ul{
+    list-style-type: none;
+    width: 30%;
+}
+
+
+/* landing apge */
+.centerLandingPage{
+  width:510px;
+  margin:auto;
+  padding: 5% 0 10%;
+}
+
+.inline {
+  display: inline;
+}
+
+.centerName{
+  color: #DE907B;
+  font-family: 'Rufina', serif;
+  font-size: 36px;
+  padding: 2px;
+  white-space: nowrap;
+}
+
+.noun{
+  font-family: 'Rufina', serif;
+  font-style: italic;
+  color: #E6C5B4;
+  font-size: 18px;
+}
+
+.indent{
+  margin-left: 5px;
+  width: 550px;
+}
+
+.indent li{
+  padding: 5px;
+}
+
+/*Project Sections*/
+
+.wrapper{
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  width: 40%;
+  margin: auto;
+  display: flex;
+  position: relative;
+}
+
+.sectionImage{
+  width:50%;
+}
+
+.sectionText{
+  width: 50%;
+  padding-left: 280px;
+}
+
+
+  }
+
+
