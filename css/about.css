@@ -1,0 +1,65 @@
+.greetings {
+    width:120px;
+    font-size: 2rem;
+    color:#565656;
+    visibility: hidden;
+}
+
+.mobileGreetings {
+    visibility: visible;
+    font-size: 2rem;
+    color:#565656;
+}
+
+
+.me{
+    width: 50%;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutMe{
+    order: 2;
+}
+
+@media screen and (min-width: 768px) {
+
+    .aboutPadding{
+        padding-bottom: 10%;
+    }
+    .greetings {
+        width:140px;
+        font-size: 36px;
+        color:#565656;
+        visibility: visible;
+    }
+
+    .aboutText {
+        padding: 0 15% 0 15%;
+    }
+
+    .me{
+        order:2;
+        padding: 20% 0 0 0;
+        width:60%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobileGreetings {
+        visibility: hidden;
+    }
+
+    .contacts {
+        align-items: center;
+        float:right;
+        justify-content: right;
+        padding: 0 15% 0 0;
+    }
+
+    .contacts a{
+        width: 300px;
+    }
+
+}

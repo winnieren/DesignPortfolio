@@ -1,0 +1,101 @@
+/*Project Overview*/
+.overviewText{
+    order: 2;
+}
+
+.overviewImage {
+    order: 1;
+}
+.tagline {
+    margin: -25px 0 25px 0;
+}
+
+.projectOverview{
+    width: 60%;
+}
+
+/* Project Content*/
+.sectionPadding {
+    padding: 5% 0 5% 0;
+}
+
+.textWrapper {
+    width:90%;
+    margin: auto;
+}
+
+.italicBlue {
+    color:#4A87A1; 
+    font-style: italic;
+}
+
+
+.imageDescription {
+    text-align: center;
+    padding: 2% 0 5%;
+}
+
+.column{
+    width: 100%;
+}
+
+.nda{
+    color: #E6C5B4;
+    margin-left: 30%;;
+  }
+
+/*end of page*/
+.subtitle{
+    color: #E6C5B4;
+    padding: 30% 0 10% 0;
+    float:right;
+
+    text-decoration: none;
+  }
+@media screen and (min-width: 768px) {
+    
+    .overviewImage {
+        order: 2;
+    }
+
+    .overviewText {
+        margin-top: -5%;
+        width: 20%;
+    }
+
+    .overviewText p{
+        padding-bottom: 10px;
+    }
+    
+    .textWrapper {
+        width:40%;
+        margin: auto;
+    }
+
+    .prototype {
+        padding-top: 5%;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .designProcess {
+        width:60%;
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .column {
+        width:50%;
+        padding-right:5%;
+    }
+
+    .subtitle:hover {
+        font-size: 105%;
+        cursor: pointer;
+      }
+
+
+}
