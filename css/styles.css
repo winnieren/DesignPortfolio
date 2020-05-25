@@ -159,13 +159,11 @@ body {
 }
 
 .sectionImage{
-  width:100%;
   justify-content: center;
   align-items: center;
 }
 
 .sectionText{
-  width: 100%;
   justify-content: center;
   align-items: center;
 }
