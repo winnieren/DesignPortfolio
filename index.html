@@ -10,6 +10,7 @@
 
   <link rel="stylesheet" href="css/styles.css?v=1.0">
   <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/animate.css">
   <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Rufina&display=swap" rel="stylesheet">
 
 </head>
@@ -18,7 +19,7 @@
   <script src="js/scripts.js"></script>
   <!---todo: make mobile navbar-->
   <div  id="home" class="content">
-    <div id="navbar">
+    <div class="fade-in" id="navbar">
         <ul>
             <li><a class="chinese" href="#home">任</a></li>
             <li><a href="#about">about</a></li>
@@ -26,7 +27,7 @@
             <li><a href="#resume">resume</a></li>
         </ul>
     </div>
-        <div class="centerLandingPage">
+        <div class="centerLandingPage fade-in-bottom">
             <div class="centerName">Winnie Ren /<p class="chinese inline">任瑞佳</p>/</div>
             <p class="noun">Noun</p>
             <div class="indent">
@@ -38,7 +39,7 @@
         </div>
         <!-- <h1 id="work" class="subtitle">Examples /</h1> -->
     </div>
-    <div id="work" class="lPinkBack">
+    <div id="work" class="lPinkBack fade-in-bottom">
         <div class="wrapper">
             <div class="sectionImage"><img src="./assets/WSIBLaptop.svg"></div>
             <div class="sectionText">
@@ -77,13 +78,15 @@
             <div class="contacts">
                 <a href="https://github.com/winnieren"><img src="assets/github.svg"></a>
                 <a href="https://www.linkedin.com/in/winnieren/"><img src="assets/linkedin.svg"></a>
-                <a href="mailto:wrjren@uwaterloo.ca"><img src="assets/mail.svg"></a>
+                <a class="mailIcon" href="mailto:wrjren@uwaterloo.ca"><img src="assets/mail.svg"></a>
             </div>
         </div>
         <div class="me">
             <img src="assets/me.svg">
         </div>
         </div>
-    <div class="footer">Made with Love by Winnie Ren 2020</div>
+    <div class="footer">
+        Made with Love by Winnie Ren 2020
+    </div>
 </body>
 </html>

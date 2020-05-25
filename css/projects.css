@@ -49,7 +49,6 @@
     color: #E6C5B4;
     padding: 30% 0 10% 0;
     float:right;
-
     text-decoration: none;
   }
 @media screen and (min-width: 768px) {
@@ -93,9 +92,13 @@
     }
 
     .subtitle:hover {
-        font-size: 105%;
         cursor: pointer;
+        color: #DE907B;
       }
+
+    .mailIcon {
+        width:18px;
+    }
 
 
 }

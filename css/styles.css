@@ -118,6 +118,7 @@ body {
 #navbar {
   overflow: hidden;
   margin-top: 10px;
+  width: 30%;
 }
 
 #navbar a:hover{
