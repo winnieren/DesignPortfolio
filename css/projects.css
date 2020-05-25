@@ -53,6 +53,10 @@
   }
 @media screen and (min-width: 768px) {
     
+    .textWrapper img {
+        padding-top: 10%;
+    }
+    
     .overviewImage {
         order: 2;
     }
